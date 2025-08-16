@@ -16,6 +16,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "https://captainlegend007.github.io",
   "https://captainlegend007.github.io/legendstores",
+  "https://legendstores-backend.vercel.app",
 ];
 app.use(express.json());
 app.use(cookieParser());
@@ -32,6 +33,6 @@ app.get("/", (req, res) => {
 app.use("/api/auth", authRouter);
 app.use("/api/user", userRouter);
 
-app.listen(PORT, () => {
-  console.log("App Running");
-});
+// app.listen(PORT, () => {
+//   console.log("App Running");
+// });
