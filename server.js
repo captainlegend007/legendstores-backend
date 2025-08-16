@@ -14,6 +14,7 @@ connectDB();
 
 const allowedOrigins = [
   "http://localhost:5173",
+  "https://captainlegend007.github.io",
   "https://captainlegend007.github.io/legendstores",
 ];
 app.use(express.json());
