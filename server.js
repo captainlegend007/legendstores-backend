@@ -12,7 +12,7 @@ const PORT = 8080;
 
 connectDB();
 
-const allowedOrigins = ["http://localhost:5173"];
+const allowedOrigins = ["http://localhost:5173", "https://captainlegend007.github.io/"];
 app.use(express.json());
 app.use(cookieParser());
 app.use(
