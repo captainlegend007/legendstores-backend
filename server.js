@@ -28,6 +28,6 @@ app.get("/", (req, res) => {
 app.use("/api/auth", authRouter);
 app.use("/api/user", userRouter);
 
-app.listen(PORT, () => {
-  console.log("App Running");
-});
+// app.listen(PORT, () => {
+//   console.log("App Running");
+// });
