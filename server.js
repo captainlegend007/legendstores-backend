@@ -37,4 +37,4 @@ app.use("/api/user", userRouter);
 //   console.log("App Running");
 // });
 
-export default server;
+export default app;
